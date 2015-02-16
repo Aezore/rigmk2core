@@ -1,0 +1,1 @@
+# rigmk2core
