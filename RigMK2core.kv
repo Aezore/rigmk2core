@@ -1,10 +1,18 @@
 <TimeFetch>:
-    orientation: 'vertical'
-    Button:
-        id: buttonFetch
-        text: 'Fetch!'
-        on_press: root.update_time()
-    Label:
-        id: time_label
-        font_size: 50
-        text: buttonFetch.text
+    <BoxLayout>:
+        orientation: 'vertical'
+        <BoxLayout>:
+            orientation: 'horizontal'
+            Button:
+                id: buttonFetch
+                text: 'Fetch!'
+                on_press: root.update_time()
+            Label:
+                id: time_label
+                font_size: 50
+                text: buttonFetch.text
+        <BoxLayout>:
+            Label:
+                text: 'Prueba'
+            Label:
+                text: 'Prueba'
