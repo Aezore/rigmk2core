@@ -42,7 +42,7 @@ class TimeFetch(BoxLayout):
     #     boton.bind(on_press=self.on_event)
     #     self.add_widget(boton)
 
-    def on_event(self, *args):
+    def update_time(self, *args):
         print("Fetching time: ")
         comando = 20
         socket2.sendto(bytes(comando), raspi_address)
