@@ -1,1 +1,4 @@
 # rigmk2core
+Rig MK2 CORE FILES
+
+RASPFIRM v1 FILES
